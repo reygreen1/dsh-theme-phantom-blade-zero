@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Phantom Blade Zero theme",
+    "description": "A deep reskin of the Web GUI after 影之刃零 (Phantom Blade Zero), with two complete themes. 素笺 (Rice paper) is the light one: parchment surfaces, ink text, the local key art printed as a pale wash. 墨夜 (Ink night) is the dark one: ink surfaces, bone text, the full night key art with fine rain. The two labelled chips on the palette pill — 素笺 / 墨夜, under the composer and on the new-session row — switch between them; the switch also moves your Appearance setting to that scheme, and changing Appearance in Settings retints the theme to match, so the theme and the page never disagree. Around 100 theme tokens change with it: surfaces, borders, text, buttons, menus, cards, code blocks, scrollbars, selection, toasts, tooltips, bubbles and states. The left column gets its own portrait key art (a different frame from the canvas) under a mode-aware scrim, plus a brush title lockup and the game's own 「Ø」 blade logomark, a status strip above the composer names the theme and the live scheme, and the composer gains a crimson hairline and a focus glow. The blank-session headline becomes a line from the game — this works through a theme language variant (it appears as 影之刃零 in Settings → General → Language); picking another language turns the line off, and disabling the plugin restores your previous language. The rice-paper theme also drifts a few maple leaves. Motion honors the system reduced-motion preference.",
+    "detail": "docs/DETAIL.md"
+  }
+}

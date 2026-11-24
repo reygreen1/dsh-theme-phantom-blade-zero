@@ -1,0 +1,1 @@
+![A stylized preview of the light rice-paper theme: ink ridges under a paper wash, the blade-and-seal mark and brush title in the sidebar, a status strip above a composer with a crimson hairline, and the palette pill below](preview.svg)
