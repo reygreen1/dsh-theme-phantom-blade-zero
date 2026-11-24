@@ -82,7 +82,7 @@ window.__ModuleLoader__.load({
      */
     const INK = {
       light: {
-        base: 'rgba(246, 241, 230, 0.7)',
+        base: 'rgba(246, 241, 230, 0.8)',
         l1: '#fbf6ea',
         l2: '#f3ecdc',
         l3: '#ece4d2',
@@ -181,10 +181,10 @@ window.__ModuleLoader__.load({
         chart2: '#a89f8c',
         chart3: '#8a6a9e',
         traj: '#b04a3a',
-        skeleton: 'rgba(70, 46, 20, 0.06)',
+        skeleton: 'rgba(70, 46, 20, 0.12)',
       },
       dark: {
-        base: 'rgba(8, 9, 10, 0.6)',
+        base: 'rgba(8, 9, 10, 0.76)',
         l1: '#15181a',
         l2: '#1c2022',
         l3: '#232a2b',
@@ -283,7 +283,7 @@ window.__ModuleLoader__.load({
         chart2: '#8c9a96',
         chart3: '#a08ad0',
         traj: '#d06a55',
-        skeleton: 'rgba(255, 255, 255, 0.06)',
+        skeleton: 'rgba(255, 255, 255, 0.14)',
       },
     };
 
