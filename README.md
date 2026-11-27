@@ -6,6 +6,12 @@ game's 「Ø」 blade mark, drifting maple leaves, fine rain and a palette switc
 
 ![影之刃零 / Phantom Blade Zero theme](assets/banner.png)
 
+## Screenshots
+
+| 素笺 · rice paper | 墨夜 · ink night |
+| --- | --- |
+| ![素笺 palette](assets/screenshots/light-su-jian.webp) | ![墨夜 palette](assets/screenshots/dark-mo-ye.webp) |
+
 ## Install
 
 From this repository:
