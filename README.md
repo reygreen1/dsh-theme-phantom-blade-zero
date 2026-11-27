@@ -22,6 +22,17 @@ Requires DSH `>=0.2.2-rc.5 <0.3.0`. After installing, enable the bundle in
 **Settings → Plugins** and restart once; the theme appears in the palette
 switch above the composer.
 
+From Discover: the public market indexes only list bundles published to npm,
+and this one installs from Git, so it ships its own index:
+
+```
+https://reygreen1.github.io/dsh-theme-phantom-blade-zero/market/index.json
+```
+
+Add it in **Plugins → Discover → 索引源 → 管理索引源…**, then search for
+影之刃零. The index lives in `docs/market/` and pins a Git commit of this
+repository; `npm publish` would make the public indexes list it instead.
+
 ## Note on bundled artwork
 
 `client.js` embeds two key-art frames as WebP data URIs. They are included for
