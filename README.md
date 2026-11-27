@@ -26,7 +26,7 @@ From Discover: the public market indexes only list bundles published to npm,
 and this one installs from Git, so it ships its own index:
 
 ```
-https://reygreen1.github.io/dsh-theme-phantom-blade-zero/market/index.json
+https://reygreen1.github.io/dsh-theme-phantom-blade-zero/index.json
 ```
 
 Add it in **Plugins → Discover → 索引源 → 管理索引源…**, then search for
