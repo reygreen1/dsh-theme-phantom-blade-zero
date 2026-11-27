@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Phantom Blade Zero theme",
+    "zh": "影之刃零主题"
+  },
+  "description": {
+    "en": "The 影之刃零 (Phantom Blade Zero) theme for the DSH Web GUI, published as its own index while the plugin is only installable from Git.",
+    "zh": "「影之刃零」DSH Web GUI 主题的自建索引：插件目前只能从 Git 安装，先用这份索引在「发现」里找到它。"
+  },
+  "metadata": {
+    "categories": {
+      "theme": {
+        "title": {
+          "en": "Themes",
+          "zh": "主题与外观"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-theme-phantom-blade-zero",
+      "title": {
+        "en": "Phantom Blade Zero theme",
+        "zh": "影之刃零主题"
+      },
+      "description": {
+        "en": "An ink-and-blood theme for the DSH Web GUI after 影之刃零 (Phantom Blade Zero): 素笺 and 墨夜 palettes, the key art as the conversation canvas, drifting maple leaves, fine rain, and a palette switch above the composer.",
+        "zh": "把 DSH Web GUI 换成水墨武侠观感：素笺与墨夜两套配色、主视觉作为会话画布、飘落的枫叶、细雨，以及输入框上方的配色切换。"
+      },
+      "icon": "icons/icon-180.png",
+      "author": "reygreen1",
+      "homepage": "https://github.com/reygreen1/dsh-theme-phantom-blade-zero#readme",
+      "repository": {
+        "url": "https://github.com/reygreen1/dsh-theme-phantom-blade-zero"
+      },
+      "metadata": {
+        "category": "theme"
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1795775841,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/reygreen1/dsh-theme-phantom-blade-zero",
+            "commit": "c3310e569d92352b9b168afb8c2b22cb581b920f"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
