@@ -78,7 +78,7 @@ this bundle, keep the artwork out unless you hold the rights to it.
 - **Headline** — the blank-session line becomes 「以身证道，以命寻心」. The
   host headline lives in the `conversation` locale namespace, which refuses a
   second dictionary for an existing locale, so the theme adds a language
-  variant of the active language (`<base>-pbz`, falling back to `<base>`,
+  variant of the active language (`<base>-x-pbz`, falling back to `<base>`,
   labelled 影之刃零) that overrides only `hero.headline`, and selects it.
   Picking another language in Settings turns the line off; disabling the
   plugin restores the previous language and removes the pack.

@@ -67,8 +67,12 @@ window.__ModuleLoader__.load({
      * The hero headline is host copy inside the `conversation` namespace, and the
      * locale registry refuses a second dictionary for an existing locale. The
      * theme therefore adds a language variant of the active language
-     * (`<base>-pbz`, falling back to `<base>`) that overrides just that line and
-     * selects it; every other string resolves through the fallback chain.
+     * (`<base>-x-pbz`, falling back to `<base>`) that overrides just that line and
+     * selects it; every other string resolves through the fallback chain. The
+     * variant uses a private-use subtag so `Intl` accepts it; a bare
+     * `<base>-pbz` tag is not valid BCP 47 and makes `Intl.Collator` /
+     * `Intl.DateTimeFormat` throw for consumers that format with the active
+     * locale.
      */
     const HEADLINE_QUOTES = {
       zh: '以身证道，以命寻心',
@@ -1530,7 +1534,11 @@ html body:not([data-ds-dark-theme]) .pbz-hud {
           const locale = ctx.locale;
           const initial = locale.getSnapshot();
           const base = String(initial.active || 'en').split('-')[0];
-          const packId = base + '-pbz';
+          /* Private-use subtag: Intl accepts `zh-x-pbz` and resolves it to `zh`,
+             while a bare `zh-pbz` makes every Intl constructor throw a
+             RangeError, which blanks any DSH surface that formats with the
+             active locale (the Plugins page's Discover tab, for one). */
+          const packId = base + '-x-pbz';
           const disposers = [];
           try {
             if (!initial.locales.some((entry) => entry.id === packId)) {
