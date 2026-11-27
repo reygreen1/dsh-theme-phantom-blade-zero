@@ -4,6 +4,8 @@
 two complete palettes (素笺 / 墨夜), the key art as the conversation canvas, the
 game's 「Ø」 blade mark, drifting maple leaves, fine rain and a palette switch.
 
+![影之刃零 / Phantom Blade Zero theme](assets/banner.png)
+
 ## Install
 
 From this repository:
