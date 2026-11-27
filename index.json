@@ -45,7 +45,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/reygreen1/dsh-theme-phantom-blade-zero",
-            "commit": "7b124270ff1154202fa5777ba0e46278600ad68e"
+            "commit": "ad5e0633a9b5e036b7e5c8b3621f2c84c590c8ea"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.5 <0.3.0"
